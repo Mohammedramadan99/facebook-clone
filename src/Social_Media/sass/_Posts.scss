@@ -1,0 +1,122 @@
+.user__bottom__postsGroup,
+.mainPage__middle {
+
+    &__posts {
+        &__post {
+            margin: 20px 0;
+            background-color: #fff;
+
+            &__userInfo {
+                padding: 15px;
+                display: flex;
+                align-items: center;
+
+                &__img {
+                    margin-right: 15px;
+                }
+
+                &__name {
+                    text-transform: capitalize;
+                    font-weight: 700;
+                }
+            }
+
+            &__img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            &__content {
+                padding: 15px;
+                padding-top: 0;
+            }
+
+            &__numbers {
+                display: flex;
+                align-items: center;
+                margin: 10px 0;
+
+                &__likesNums,
+                &__commentsNums {
+                    margin-left: 20px;
+                    color: #999;
+                }
+            }
+
+            &__actions {
+                display: flex;
+                align-items: center;
+
+                &__item {
+                    flex: 1;
+                    padding: 10px 20px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #eee;
+                    }
+                }
+            }
+
+            &__commentsGroupe {
+                &__writeComment {
+                    display: flex;
+                    align-items: center;
+                    padding: 20px;
+
+                    &__userImg {}
+
+                    &__input {
+                        margin-left: 10px;
+                        width: 100%;
+
+                        input {
+                            width: 100%;
+                            border: none;
+                            background-color: #eee;
+                            padding: 10px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+
+                &__comments {
+                    padding-bottom: 20px;
+
+                    &__comment {
+                        display: flex;
+                        margin-bottom: 10px;
+
+                        &__img {
+                            width: 70px;
+                            margin-left: 20px;
+                        }
+
+                        &__details {
+                            width: calc(100% - 100px);
+                            margin-left: 10px;
+                            background-color: #eee;
+                            padding: 10px;
+
+                            &__name {
+                                text-transform: capitalize;
+                                font-weight: 700;
+                            }
+
+                            &__commentContent {
+                                font-size: 15px;
+                                text-transform: lowercase;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
