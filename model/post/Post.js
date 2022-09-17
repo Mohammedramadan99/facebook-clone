@@ -29,12 +29,12 @@ const postSchema = new mongoose.Schema(
         ref: "User",
       },
     ],
-    disLikes: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User",
-      },
-    ],
+    // disLikes: [
+    //   {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: "User",
+    //   },
+    // ],
     reactionClass: {
       type: String,
     },

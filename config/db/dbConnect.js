@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const dbConnect = async () => {
   try {
     await mongoose.connect(
-      "mongodb://localhost:27017/mozSocialMedia", // "mongodb+srv://Ecommerce:m1964118@cluster0.7n14b.mongodb.net/Blog"
+      "mongodb+srv://Ecommerce:m1964118@cluster0.7n14b.mongodb.net/mozSocialMedia", //"mongodb://localhost:27017/mozSocialMedia"
       {
         useCreateIndex: true,
         useFindAndModify: false,
